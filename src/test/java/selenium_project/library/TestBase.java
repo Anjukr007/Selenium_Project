@@ -46,7 +46,7 @@ public abstract class TestBase {
     @AfterMethod
     public void afterMethod() throws InterruptedException {
         Thread.sleep(2000);
-     //   driver.quit();
+        //driver.quit();
     }
 
 }
